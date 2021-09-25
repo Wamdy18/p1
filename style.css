@@ -41,7 +41,7 @@ header .container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	height: 100vh;
+	min-height: 100vh;
 	background-image: url(img/bg-person.png);
 	background-position: -70px 70px;
 	background-repeat: no-repeat;
@@ -434,5 +434,9 @@ footer .container {
 		transition: 0.3s background ease;
 		transition: 0.3s color ease;
 		margin: 0 auto;
+	}
+
+	.wrapper {
+
 	}
 }

@@ -292,6 +292,16 @@ footer .container {
 	display: none;
 }
 
+.image_mobile {
+	width: 100%;
+	display: none;
+	padding-right: 30px;
+}
+
+.image_mobile img{
+	width: 100%;
+}
+
 @media (max-width: 1200px) {
 
 	main {
@@ -447,5 +457,9 @@ footer .container {
 	footer {
 		position: static;
 		padding-top: 30px;
+	}
+
+	.image_mobile {
+		display: block;
 	}
 }

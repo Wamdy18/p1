@@ -436,7 +436,11 @@ footer .container {
 		margin: 0 auto;
 	}
 
-	.wrapper {
+	body {
+		height: 100%;
+	}
 
+	.wrapper {
+		height: 100%;
 	}
 }

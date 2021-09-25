@@ -403,17 +403,36 @@ footer .container {
 	main .container{
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: center;
 		padding-top: 0px;
+		text-align: center;
 	}
 
 	.wrapper {
-		background-position: 0% 100%;
+		background: none;
 	}
 
 	.price {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		margin-top: 10px;
+	}
+
+	.right-block {
+		width: 100%;
+		position: relative;
+		padding-right: 0px;
+	}
+
+	.btn-add-to-cart {
+		width: 140px;
+		height: 40px;
+		border: 2px solid #dd8d78;
+		cursor: pointer;
+		background: transparent;
+		transition: 0.3s background ease;
+		transition: 0.3s color ease;
+		margin: 0 auto;
 	}
 }

@@ -443,4 +443,8 @@ footer .container {
 	.wrapper {
 		height: 100%;
 	}
+
+	footer {
+		display: none;
+	}
 }

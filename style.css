@@ -445,6 +445,7 @@ footer .container {
 	}
 
 	footer {
-		display: none;
+		position: static;
+		padding-top: 30px;
 	}
 }
